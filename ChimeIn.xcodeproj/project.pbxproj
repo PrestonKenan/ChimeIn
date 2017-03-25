@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29960FCE1E871BD500A6C38B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29960FCD1E871BD500A6C38B /* AppDelegate.swift */; };
+		29960FD01E871BD500A6C38B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29960FCF1E871BD500A6C38B /* ViewController.swift */; };
+		29960FD31E871BD500A6C38B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29960FD11E871BD500A6C38B /* Main.storyboard */; };
+		29960FD51E871BD500A6C38B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29960FD41E871BD500A6C38B /* Assets.xcassets */; };
+		29960FD81E871BD500A6C38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29960FD61E871BD500A6C38B /* LaunchScreen.storyboard */; };
+		29960FE31E871BD500A6C38B /* ChimeInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29960FE21E871BD500A6C38B /* ChimeInTests.swift */; };
+		29960FEE1E871BD500A6C38B /* ChimeInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29960FED1E871BD500A6C38B /* ChimeInUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29960FDF1E871BD500A6C38B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29960FC21E871BD400A6C38B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29960FC91E871BD400A6C38B;
+			remoteInfo = ChimeIn;
+		};
+		29960FEA1E871BD500A6C38B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29960FC21E871BD400A6C38B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29960FC91E871BD400A6C38B;
+			remoteInfo = ChimeIn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29960FCA1E871BD400A6C38B /* ChimeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChimeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29960FCD1E871BD500A6C38B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29960FCF1E871BD500A6C38B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29960FD21E871BD500A6C38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29960FD41E871BD500A6C38B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29960FD71E871BD500A6C38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29960FD91E871BD500A6C38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29960FDE1E871BD500A6C38B /* ChimeInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChimeInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29960FE21E871BD500A6C38B /* ChimeInTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChimeInTests.swift; sourceTree = "<group>"; };
+		29960FE41E871BD500A6C38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29960FE91E871BD500A6C38B /* ChimeInUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChimeInUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29960FED1E871BD500A6C38B /* ChimeInUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChimeInUITests.swift; sourceTree = "<group>"; };
+		29960FEF1E871BD500A6C38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29960FC71E871BD400A6C38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29960FDB1E871BD500A6C38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29960FE61E871BD500A6C38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29960FC11E871BD400A6C38B = {
+			isa = PBXGroup;
+			children = (
+				29960FCC1E871BD400A6C38B /* ChimeIn */,
+				29960FE11E871BD500A6C38B /* ChimeInTests */,
+				29960FEC1E871BD500A6C38B /* ChimeInUITests */,
+				29960FCB1E871BD400A6C38B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29960FCB1E871BD400A6C38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29960FCA1E871BD400A6C38B /* ChimeIn.app */,
+				29960FDE1E871BD500A6C38B /* ChimeInTests.xctest */,
+				29960FE91E871BD500A6C38B /* ChimeInUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29960FCC1E871BD400A6C38B /* ChimeIn */ = {
+			isa = PBXGroup;
+			children = (
+				29960FCD1E871BD500A6C38B /* AppDelegate.swift */,
+				29960FCF1E871BD500A6C38B /* ViewController.swift */,
+				29960FD11E871BD500A6C38B /* Main.storyboard */,
+				29960FD41E871BD500A6C38B /* Assets.xcassets */,
+				29960FD61E871BD500A6C38B /* LaunchScreen.storyboard */,
+				29960FD91E871BD500A6C38B /* Info.plist */,
+			);
+			path = ChimeIn;
+			sourceTree = "<group>";
+		};
+		29960FE11E871BD500A6C38B /* ChimeInTests */ = {
+			isa = PBXGroup;
+			children = (
+				29960FE21E871BD500A6C38B /* ChimeInTests.swift */,
+				29960FE41E871BD500A6C38B /* Info.plist */,
+			);
+			path = ChimeInTests;
+			sourceTree = "<group>";
+		};
+		29960FEC1E871BD500A6C38B /* ChimeInUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29960FED1E871BD500A6C38B /* ChimeInUITests.swift */,
+				29960FEF1E871BD500A6C38B /* Info.plist */,
+			);
+			path = ChimeInUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29960FC91E871BD400A6C38B /* ChimeIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29960FF21E871BD500A6C38B /* Build configuration list for PBXNativeTarget "ChimeIn" */;
+			buildPhases = (
+				29960FC61E871BD400A6C38B /* Sources */,
+				29960FC71E871BD400A6C38B /* Frameworks */,
+				29960FC81E871BD400A6C38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChimeIn;
+			productName = ChimeIn;
+			productReference = 29960FCA1E871BD400A6C38B /* ChimeIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29960FDD1E871BD500A6C38B /* ChimeInTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29960FF51E871BD500A6C38B /* Build configuration list for PBXNativeTarget "ChimeInTests" */;
+			buildPhases = (
+				29960FDA1E871BD500A6C38B /* Sources */,
+				29960FDB1E871BD500A6C38B /* Frameworks */,
+				29960FDC1E871BD500A6C38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29960FE01E871BD500A6C38B /* PBXTargetDependency */,
+			);
+			name = ChimeInTests;
+			productName = ChimeInTests;
+			productReference = 29960FDE1E871BD500A6C38B /* ChimeInTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29960FE81E871BD500A6C38B /* ChimeInUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29960FF81E871BD500A6C38B /* Build configuration list for PBXNativeTarget "ChimeInUITests" */;
+			buildPhases = (
+				29960FE51E871BD500A6C38B /* Sources */,
+				29960FE61E871BD500A6C38B /* Frameworks */,
+				29960FE71E871BD500A6C38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29960FEB1E871BD500A6C38B /* PBXTargetDependency */,
+			);
+			name = ChimeInUITests;
+			productName = ChimeInUITests;
+			productReference = 29960FE91E871BD500A6C38B /* ChimeInUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29960FC21E871BD400A6C38B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Preston Kenan";
+				TargetAttributes = {
+					29960FC91E871BD400A6C38B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					29960FDD1E871BD500A6C38B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29960FC91E871BD400A6C38B;
+					};
+					29960FE81E871BD500A6C38B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29960FC91E871BD400A6C38B;
+					};
+				};
+			};
+			buildConfigurationList = 29960FC51E871BD400A6C38B /* Build configuration list for PBXProject "ChimeIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29960FC11E871BD400A6C38B;
+			productRefGroup = 29960FCB1E871BD400A6C38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29960FC91E871BD400A6C38B /* ChimeIn */,
+				29960FDD1E871BD500A6C38B /* ChimeInTests */,
+				29960FE81E871BD500A6C38B /* ChimeInUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29960FC81E871BD400A6C38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29960FD81E871BD500A6C38B /* LaunchScreen.storyboard in Resources */,
+				29960FD51E871BD500A6C38B /* Assets.xcassets in Resources */,
+				29960FD31E871BD500A6C38B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29960FDC1E871BD500A6C38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29960FE71E871BD500A6C38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29960FC61E871BD400A6C38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29960FD01E871BD500A6C38B /* ViewController.swift in Sources */,
+				29960FCE1E871BD500A6C38B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29960FDA1E871BD500A6C38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29960FE31E871BD500A6C38B /* ChimeInTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29960FE51E871BD500A6C38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29960FEE1E871BD500A6C38B /* ChimeInUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29960FE01E871BD500A6C38B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29960FC91E871BD400A6C38B /* ChimeIn */;
+			targetProxy = 29960FDF1E871BD500A6C38B /* PBXContainerItemProxy */;
+		};
+		29960FEB1E871BD500A6C38B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29960FC91E871BD400A6C38B /* ChimeIn */;
+			targetProxy = 29960FEA1E871BD500A6C38B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29960FD11E871BD500A6C38B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29960FD21E871BD500A6C38B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29960FD61E871BD500A6C38B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29960FD71E871BD500A6C38B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29960FF01E871BD500A6C38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29960FF11E871BD500A6C38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29960FF31E871BD500A6C38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChimeIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.ChimeIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		29960FF41E871BD500A6C38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChimeIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.ChimeIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		29960FF61E871BD500A6C38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChimeInTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.ChimeInTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChimeIn.app/ChimeIn";
+			};
+			name = Debug;
+		};
+		29960FF71E871BD500A6C38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChimeInTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.ChimeInTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChimeIn.app/ChimeIn";
+			};
+			name = Release;
+		};
+		29960FF91E871BD500A6C38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChimeInUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.ChimeInUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChimeIn;
+			};
+			name = Debug;
+		};
+		29960FFA1E871BD500A6C38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChimeInUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.ChimeInUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChimeIn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29960FC51E871BD400A6C38B /* Build configuration list for PBXProject "ChimeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29960FF01E871BD500A6C38B /* Debug */,
+				29960FF11E871BD500A6C38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29960FF21E871BD500A6C38B /* Build configuration list for PBXNativeTarget "ChimeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29960FF31E871BD500A6C38B /* Debug */,
+				29960FF41E871BD500A6C38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29960FF51E871BD500A6C38B /* Build configuration list for PBXNativeTarget "ChimeInTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29960FF61E871BD500A6C38B /* Debug */,
+				29960FF71E871BD500A6C38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29960FF81E871BD500A6C38B /* Build configuration list for PBXNativeTarget "ChimeInUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29960FF91E871BD500A6C38B /* Debug */,
+				29960FFA1E871BD500A6C38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29960FC21E871BD400A6C38B /* Project object */;
+}
