@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1C1626B461DD887868238BC382533798'
+               BlueprintIdentifier = '41E7A6F2AAAFA35342520C3B319B6F57'
                BlueprintName = 'Pods-ChimeIn'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-ChimeIn.framework'>
