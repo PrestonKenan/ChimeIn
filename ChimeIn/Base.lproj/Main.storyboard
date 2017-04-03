@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChimeIn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" id="BYZ-38-t0r" customClass="ViewController" customModule="ChimeIn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -56,6 +56,9 @@
                                 <rect key="frame" x="70" y="421" width="234" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Dont have an account? Sign up"/>
+                                <connections>
+                                    <segue destination="CSY-nH-6Y6" kind="presentation" id="VAx-vT-e73"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odk-mN-jqV">
                                 <rect key="frame" x="119" y="540" width="137" height="30"/>
@@ -77,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="38" y="118"/>
         </scene>
-        <!--View Controller-->
+        <!--Reset Password View Controller-->
         <scene sceneID="I63-b2-Rpz">
             <objects>
-                <viewController id="fR6-zk-7NQ" sceneMemberID="viewController">
+                <viewController id="fR6-zk-7NQ" customClass="ResetPasswordViewController" customModule="ChimeIn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FTX-4a-PEO"/>
                         <viewControllerLayoutGuide type="bottom" id="T3O-UX-kUi"/>
@@ -100,6 +103,9 @@
                                 <rect key="frame" x="164" y="177" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Enter"/>
+                                <connections>
+                                    <action selector="sumbitAction:" destination="fR6-zk-7NQ" eventType="touchUpInside" id="C7Z-86-2jg"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="alR-6v-eIy">
                                 <rect key="frame" x="69" y="109" width="236" height="30"/>
@@ -111,10 +117,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="alR-6v-eIy" id="8Y1-Ei-uba"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8rL-Z4-ATQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="901.60000000000002" y="592.35382308845578"/>
+            <point key="canvasLocation" x="919" y="553"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="g6p-qg-oPt">
@@ -139,6 +148,9 @@
                                 <rect key="frame" x="163" y="579" width="48" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logOutAction:" destination="5x4-eg-VAt" eventType="touchUpInside" id="fDv-Ln-1Zl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -151,7 +163,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="9wf-jP-TMY">
             <objects>
-                <viewController id="CSY-nH-6Y6" customClass="SignUpViewController" customModule="ChimeIn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUp" id="CSY-nH-6Y6" customClass="SignUpViewController" customModule="ChimeIn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bvX-fg-Q2l"/>
                         <viewControllerLayoutGuide type="bottom" id="g8m-Lx-pEi"/>

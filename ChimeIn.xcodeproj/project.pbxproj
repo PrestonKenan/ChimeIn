@@ -16,6 +16,7 @@
 		29960FEE1E871BD500A6C38B /* ChimeInUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29960FED1E871BD500A6C38B /* ChimeInUITests.swift */; };
 		29E4A30C1E91C420005D78B0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E4A30B1E91C420005D78B0 /* SignUpViewController.swift */; };
 		29E9540E1E91C99700976407 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E9540D1E91C99700976407 /* HomeViewController.swift */; };
+		29E954101E91E3A600976407 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E9540F1E91E3A600976407 /* ResetPasswordViewController.swift */; };
 		4A188DB3405DB066F21883D0 /* Pods_ChimeIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAEBEA3455D6EFF7CA1AB1D /* Pods_ChimeIn.framework */; };
 		57422E5D77CEFF8369052130 /* Pods_ChimeInTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B6AECEC3D307B717714AA7 /* Pods_ChimeInTests.framework */; };
 		894AE35F1E8A0BFA001AB9C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894AE35E1E8A0BFA001AB9C7 /* GoogleService-Info.plist */; };
@@ -58,6 +59,7 @@
 		29960FEF1E871BD500A6C38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E4A30B1E91C420005D78B0 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		29E9540D1E91C99700976407 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		29E9540F1E91E3A600976407 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		45C4EE7A38E54B27C52E3D3F /* Pods-ChimeIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChimeIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChimeIn/Pods-ChimeIn.debug.xcconfig"; sourceTree = "<group>"; };
 		63E20F727AAE0E1E8A7F1554 /* Pods-ChimeInTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChimeInTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChimeInTests/Pods-ChimeInTests.release.xcconfig"; sourceTree = "<group>"; };
 		6DAEBEA3455D6EFF7CA1AB1D /* Pods_ChimeIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChimeIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +139,7 @@
 				29960FCF1E871BD500A6C38B /* ViewController.swift */,
 				29E4A30B1E91C420005D78B0 /* SignUpViewController.swift */,
 				29960FD11E871BD500A6C38B /* Main.storyboard */,
+				29E9540F1E91E3A600976407 /* ResetPasswordViewController.swift */,
 				29E9540D1E91C99700976407 /* HomeViewController.swift */,
 				29960FD41E871BD500A6C38B /* Assets.xcassets */,
 				29960FD61E871BD500A6C38B /* LaunchScreen.storyboard */,
@@ -463,6 +466,7 @@
 			files = (
 				29E4A30C1E91C420005D78B0 /* SignUpViewController.swift in Sources */,
 				29960FD01E871BD500A6C38B /* ViewController.swift in Sources */,
+				29E954101E91E3A600976407 /* ResetPasswordViewController.swift in Sources */,
 				29960FCE1E871BD500A6C38B /* AppDelegate.swift in Sources */,
 				29E9540E1E91C99700976407 /* HomeViewController.swift in Sources */,
 			);
