@@ -9,15 +9,25 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import TwilioVideo
 
 class HomeViewController: UIViewController {
 
+
+    @IBOutlet weak var connectButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
+    
+    @IBAction func connectButton(_ sender: Any) {
+        let vc = UIStoryboard(name: "ChimeIn", bundle: nil).instantiateViewController(withIdentifier: "ChimeIn")
+        present(vc, animated: true, completion: nil)
+    }
+
+    
     @IBAction func logOutAction(_ sender: Any) {
         if FIRAuth.auth()?.currentUser != nil {
             do {

@@ -22,6 +22,9 @@
 		894AE35F1E8A0BFA001AB9C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894AE35E1E8A0BFA001AB9C7 /* GoogleService-Info.plist */; };
 		894AE3601E8A0BFA001AB9C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894AE35E1E8A0BFA001AB9C7 /* GoogleService-Info.plist */; };
 		894AE3611E8A0BFA001AB9C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894AE35E1E8A0BFA001AB9C7 /* GoogleService-Info.plist */; };
+		89EE85481EA81058002D37CB /* LocalMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE85471EA81058002D37CB /* LocalMedia.swift */; };
+		89EE854A1EA81179002D37CB /* DebateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE85491EA81179002D37CB /* DebateViewController.swift */; };
+		89EE854C1EAD272A002D37CB /* ChimeInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE854B1EAD272A002D37CB /* ChimeInViewController.swift */; };
 		A6C2E7C441458EEF02C7E24C /* Pods_ChimeInUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA506F66AA369E2A37FBE110 /* Pods_ChimeInUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,9 @@
 		6DAEBEA3455D6EFF7CA1AB1D /* Pods_ChimeIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChimeIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F64D996EBC01BACDEE057B /* Pods-ChimeInTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChimeInTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChimeInTests/Pods-ChimeInTests.debug.xcconfig"; sourceTree = "<group>"; };
 		894AE35E1E8A0BFA001AB9C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89EE85471EA81058002D37CB /* LocalMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalMedia.swift; sourceTree = "<group>"; };
+		89EE85491EA81179002D37CB /* DebateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebateViewController.swift; sourceTree = "<group>"; };
+		89EE854B1EAD272A002D37CB /* ChimeInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChimeInViewController.swift; sourceTree = "<group>"; };
 		A2D632BC8633222D38D7248E /* Pods-ChimeInUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChimeInUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChimeInUITests/Pods-ChimeInUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA506F66AA369E2A37FBE110 /* Pods_ChimeInUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChimeInUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAF9393279D60D128D498E2 /* Pods-ChimeInUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChimeInUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChimeInUITests/Pods-ChimeInUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,8 +143,11 @@
 			children = (
 				29960FCD1E871BD500A6C38B /* AppDelegate.swift */,
 				29960FCF1E871BD500A6C38B /* ViewController.swift */,
+				89EE85491EA81179002D37CB /* DebateViewController.swift */,
+				89EE85471EA81058002D37CB /* LocalMedia.swift */,
 				29E4A30B1E91C420005D78B0 /* SignUpViewController.swift */,
 				29960FD11E871BD500A6C38B /* Main.storyboard */,
+				89EE854B1EAD272A002D37CB /* ChimeInViewController.swift */,
 				29E9540F1E91E3A600976407 /* ResetPasswordViewController.swift */,
 				29E9540D1E91C99700976407 /* HomeViewController.swift */,
 				29960FD41E871BD500A6C38B /* Assets.xcassets */,
@@ -466,8 +475,11 @@
 			files = (
 				29E4A30C1E91C420005D78B0 /* SignUpViewController.swift in Sources */,
 				29960FD01E871BD500A6C38B /* ViewController.swift in Sources */,
+				89EE854C1EAD272A002D37CB /* ChimeInViewController.swift in Sources */,
 				29E954101E91E3A600976407 /* ResetPasswordViewController.swift in Sources */,
 				29960FCE1E871BD500A6C38B /* AppDelegate.swift in Sources */,
+				89EE854A1EA81179002D37CB /* DebateViewController.swift in Sources */,
+				89EE85481EA81058002D37CB /* LocalMedia.swift in Sources */,
 				29E9540E1E91C99700976407 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

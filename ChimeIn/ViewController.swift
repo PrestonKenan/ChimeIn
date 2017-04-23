@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import TwilioVideo
+
 
 class ViewController: UIViewController {
     
@@ -18,12 +20,13 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var emailTextField: UITextField!
+    
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func loginAction(_ sender: Any) {
         if self.emailTextField.text == "" || self.passwordTextField.text == "" {
             
-            //Alert to tell the user that there was an error because they didn't fill anything in the textfields because they didn't fill anything in
+            //Alert to tell the user that there was an error because they didn't fill anything in the textfields
             
             let alertController = UIAlertController(title: "Error", message: "Please enter an email and password.", preferredStyle: .alert)
             
